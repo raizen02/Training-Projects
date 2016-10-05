@@ -9,6 +9,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VbImplementations", "VbImpl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfTest", "WcfTest\WcfTest.csproj", "{E6274C6E-E30F-487E-8002-1A47577F2D2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidPrinciples", "SolidPrinciples\SolidPrinciples.csproj", "{4D49E2FB-D6B4-4CDB-8F89-C92D1B4EA260}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E6274C6E-E30F-487E-8002-1A47577F2D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6274C6E-E30F-487E-8002-1A47577F2D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6274C6E-E30F-487E-8002-1A47577F2D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D49E2FB-D6B4-4CDB-8F89-C92D1B4EA260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D49E2FB-D6B4-4CDB-8F89-C92D1B4EA260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D49E2FB-D6B4-4CDB-8F89-C92D1B4EA260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D49E2FB-D6B4-4CDB-8F89-C92D1B4EA260}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

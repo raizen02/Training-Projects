@@ -18,12 +18,35 @@ namespace ConsoleApp
             x.GoHome();
             Employee y = (Employee)x;
             y.ClockIn();
-            //y.DoWork();
+           // y.DoWork();
             y.GoHome();
 
+
+            B ss = new B();
+            Console.WriteLine(ss.func1());
 
             Console.ReadLine();
 
         }
+
+        abstract class A
+        {
+           virtual public string func1()
+            {
+                return "base";
+            }
+
+        }
+
+        class B : A
+        {
+            override
+            public string func1()
+            {
+                return base.func1() + " derived";
+            }
+
+        }
+
     }
 }
